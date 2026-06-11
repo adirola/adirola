@@ -1,6 +1,6 @@
 # Aditya Rola
 
-Backend and distributed systems engineer — financial execution infrastructure. Nine years building correctness-critical systems, from secure enterprise data platforms and payments tooling (JPMorgan, Visa) to on-chain arbitrage execution and settlement (Capx, Thema). I work across Rust, Go, TypeScript, and Solidity and own backend architecture end to end.
+Backend and distributed systems engineer — financial execution infrastructure. Nine years building correctness-critical systems, from secure enterprise data platforms and payments tooling to on-chain arbitrage execution and settlement.
 
 Currently Founding Engineer at **Thema Labs**. Previously Tech Lead at **Capx AI**, with earlier engineering roles at **Visa** and **JPMorgan Chase**. Based in Bengaluru, India.
 
@@ -14,11 +14,10 @@ Currently Founding Engineer at **Thema Labs**. Previously Tech Lead at **Capx AI
 
 ### What I work on
 
-- **Latency-sensitive execution** — built an on-chain arbitrage hot path in Rust decoding ~150 sources per block; a three-tier submission cascade (private relay → exclusive validator mempool → public gas auction) sustained **~85–90% inclusion** across a 9,000-execution live beta.
-- **High-scale platforms** — served portfolio valuation, charts, and leaderboards at **sub-second P90** via a read-through Redis cache, and held **99.9% uptime** through 200K+ participant launch campaigns using Kafka queues and request-level load shedding.
-- **Correctness-critical pipelines** — ordered, idempotent, at-least-once processing with dedup so retries never double-count, backed by hot-standby failover and automated crash recovery on TimescaleDB.
-- **On-chain primitives** — ERC-4626 / 7540 tokenized vaults and a custom Safe module in Solidity, with invariants validated through Foundry property-based fuzzing before any capital was deployed.
-- **Agentic engineering** — a staged research → design → implement harness that cut token cost per shipped change **~60%** and agent-caused change failures **~80%** by moving review upstream.
+- **Latency-sensitive execution** — sub-block decision paths, on-chain arbitrage, idempotent and atomic submission
+- **Event-driven pipelines** — ordered, deduplicated, at-least-once processing with HA, failover, and crash recovery
+- **High-scale platforms** — read-through caching, load shedding, and sub-second P90 serving at 99.9% uptime
+- **On-chain primitives** — ERC-4626 / 7540 / 4337 systems in Solidity, validated with property-based fuzzing
 
 ### Writing
 
