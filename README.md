@@ -21,6 +21,7 @@ Currently Founding Engineer at **Thema Labs**. Previously Tech Lead at **Capx AI
 
 ### Writing
 
+- [Substack](https://substack.com/@articlesiwishedihad)
 - [How to set up your own self-sovereign app-chain ZK-rollup using Polygon zkEVM](https://medium.com/coinmonks) — Coinmonks
 - Early open-source contributor to Polygon zkEVM, ai16z Eliza, and Luganodes.
 
